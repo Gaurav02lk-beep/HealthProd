@@ -1,0 +1,8 @@
+{
+  "name": "HealthProd - AI Life Companion",
+  "description": "An AI-powered daily life companion to help you build better habits. Log your activities, get personalized insights, chat with an AI assistant, and scan your meals for nutritional information to improve your health, productivity, and overall well-being.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

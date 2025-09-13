@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthProd - AI Life Companion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'brand-primary': '#2563EB', // A calmer, more standard blue
+              'brand-secondary': '#14B8A6', // A modern teal
+              'slate-900': '#0F172A',
+              'slate-800': '#1E293B',
+              'slate-700': '#334155',
+              'slate-600': '#475569',
+              'slate-400': '#94A3B8',
+              'slate-300': '#CBD5E1',
+              'slate-100': '#F1F5F9',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@19.1.1/",
+    "react/": "https://esm.sh/react@19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@1.19.0",
+    "recharts": "https://esm.sh/recharts@2.12.7",
+    "date-fns": "https://esm.sh/date-fns@3.6.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900 text-slate-100">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
